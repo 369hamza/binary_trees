@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-#include <stdlib.h>
+#include <stdlib.h>  // for malloc
 
 /**
  * binary_tree_insert_right - inserts a node as the
