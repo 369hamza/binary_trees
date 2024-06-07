@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-#include <stdlib.h>  // for malloc
+#include <stdlib.h>
 
 /**
  * binary_tree_insert_right - inserts a node as the
@@ -26,7 +26,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 	new = malloc(sizeof(binary_tree_t));
 	if (!new)
 		return (NULL);
-	
+
 	new->n = value;
 	new->parent = parent;
 	new->left = NULL;
